@@ -1,0 +1,15 @@
+C:\SCHOOL\PYTHON\Code\Work\PTHN\LCTR\001\bin\Debug\net7.0\001.exe
+C:\SCHOOL\PYTHON\Code\Work\PTHN\LCTR\001\bin\Debug\net7.0\001.deps.json
+C:\SCHOOL\PYTHON\Code\Work\PTHN\LCTR\001\bin\Debug\net7.0\001.runtimeconfig.json
+C:\SCHOOL\PYTHON\Code\Work\PTHN\LCTR\001\bin\Debug\net7.0\001.dll
+C:\SCHOOL\PYTHON\Code\Work\PTHN\LCTR\001\bin\Debug\net7.0\001.pdb
+C:\SCHOOL\PYTHON\Code\Work\PTHN\LCTR\001\obj\Debug\net7.0\001.csproj.AssemblyReference.cache
+C:\SCHOOL\PYTHON\Code\Work\PTHN\LCTR\001\obj\Debug\net7.0\001.GeneratedMSBuildEditorConfig.editorconfig
+C:\SCHOOL\PYTHON\Code\Work\PTHN\LCTR\001\obj\Debug\net7.0\001.AssemblyInfoInputs.cache
+C:\SCHOOL\PYTHON\Code\Work\PTHN\LCTR\001\obj\Debug\net7.0\001.AssemblyInfo.cs
+C:\SCHOOL\PYTHON\Code\Work\PTHN\LCTR\001\obj\Debug\net7.0\001.csproj.CoreCompileInputs.cache
+C:\SCHOOL\PYTHON\Code\Work\PTHN\LCTR\001\obj\Debug\net7.0\001.dll
+C:\SCHOOL\PYTHON\Code\Work\PTHN\LCTR\001\obj\Debug\net7.0\refint\001.dll
+C:\SCHOOL\PYTHON\Code\Work\PTHN\LCTR\001\obj\Debug\net7.0\001.pdb
+C:\SCHOOL\PYTHON\Code\Work\PTHN\LCTR\001\obj\Debug\net7.0\001.genruntimeconfig.cache
+C:\SCHOOL\PYTHON\Code\Work\PTHN\LCTR\001\obj\Debug\net7.0\ref\001.dll
