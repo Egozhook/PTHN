@@ -1,7 +1,8 @@
 ﻿void Zadacha001()
 {   //Напишите программу, которая принимает на вход пятизначное число и проверяет, является ли оно палиндромом.
     Console.WriteLine("Введите пятизначное число: ");
-    int digit = Convert.ToInt32(Console.ReadLine());
+    int number = Convert.ToInt32(Console.ReadLine());
+    int digit = Math.Abs(number);            // вечно забываю модуль!!!
     if (digit > 9999 && digit < 100000)
     {
         if (digit/10000 == digit%10)
@@ -44,6 +45,6 @@ void Zadacha003()
     }
 
 }
-//Zadacha001();
+Zadacha001();
 //Zadacha002();
 //Zadacha003();
