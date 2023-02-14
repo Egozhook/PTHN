@@ -5,9 +5,9 @@
     int digit = Math.Abs(number);            // вечно забываю модуль!!!
     if (digit > 9999 && digit < 100000)
     {
-        if (digit/10000 == digit%10)
+        if (digit / 10000 == digit % 10)
         {
-            if (digit/1000%10 == digit/10%10)
+            if (digit / 1000 % 10 == digit / 10 % 10)
             {
                 Console.WriteLine($"Число {digit} - палиндром");
             }
@@ -17,6 +17,23 @@
         else Console.WriteLine($"Число {digit} - не является палиндромом");
     }
     else Console.WriteLine("Неверный ввод");
+}
+void Zadacha001A()
+{   // Решение Сапрыкина
+    int number = 12321;
+    int current_number = number;
+    int result = 0;
+    while (current_number > 0)
+    {
+        int digit = current_number % 10;
+        result = result * 10 + digit;
+        current_number /= 10;
+        Console.WriteLine(result);
+    }
+    if ( number == result)
+    {
+        Console.WriteLine($"Число {number} - палиндром");
+    }
 }
 void Zadacha002()
 {   //Напишите программу, которая принимает на вход координаты двух точек и находит расстояние между ними в 3D пространстве.
@@ -45,6 +62,7 @@ void Zadacha003()
     }
 
 }
-Zadacha001();
+//Zadacha001();
+//Zadacha001A();
 //Zadacha002();
 //Zadacha003();
