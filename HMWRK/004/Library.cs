@@ -1,6 +1,6 @@
 namespace Library
 {
-    class Help
+    class Book
     {
         public static void Help()
         {
