@@ -4,7 +4,7 @@
     //Степень числа с натуральным показателем — это результат многократного умножения числа на себя.
     Console.WriteLine("Введите число A:");
     int digA = Convert.ToInt32(Console.ReadLine());
-    int current_number = digA;
+    int current_number = digA;    // Ошибка! нужно ставить 1, так как может быть нулевая степень
     Console.WriteLine("Введите число B:");
     int digB = Convert.ToInt32(Console.ReadLine());
     for (int i = 1; i <= digB; i++)
@@ -35,7 +35,6 @@ void Zadacha029()
     PrintArray(numbers);
     SelectionSort(numbers);
     PrintArray(numbers);
-
     void FillArray(int[] num)
     {
         Random random = new Random();
@@ -66,6 +65,7 @@ void Zadacha029()
         num[i] = num[minPosition];
         num[minPosition] = temporary;
     }
+    
 }
 }
 //Zadacha025();
