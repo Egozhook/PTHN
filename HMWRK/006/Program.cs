@@ -42,5 +42,5 @@ void PrintArray(int[] numbers)
     }
     Console.WriteLine();
 }
-//Zadacha041();
-Zadacha043();
+Zadacha041();
+//Zadacha043();

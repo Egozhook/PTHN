@@ -135,6 +135,29 @@ void ZadachaDop002()
     Console.WriteLine($"Количество: побед - {win}, поражений - {lose}, ничьих - {draw}");
     Console.WriteLine($"Количество набранных очков: {win*3+draw}");
 }
+void ZadachaDop003()
+{   //На вход подаётся поговорка “без труда не выловишь и рыбку из пруда”. Используя рекурсию, подсчитайте, сколько в поговорке гласных букв.
+    Console.Clear();
+    string phrase = "без труда не выловишь и рыбку из пруда";
+    char[] alphabet = {'а','е','ё','и','о','у','ы','э','ю','я'};
+    int count = 0;
+    // foreach(char letter in phrase)
+    // {
+    //     bool contain = alphabet.Contains(letter);
+    //     if (contain) count++;
+    //     Console.WriteLine($"Буква {letter} гласная: {alphabet.Contains(letter)}" );
+    // }
+    // Console.WriteLine($"в поговорке {count} гласных букв");
+    int CountOfVowelLetters(string phrase, char[] alphabet, int count = 0, int index = 0)
+    {
+        if(index == phrase.Length) return count;
+        bool contain = alphabet.Contains(phrase[index]);
+        if (contain) count++;
+        index++;
+        return CountOfVowelLetters(phrase, alphabet, count, index);
+    }
+    Console.WriteLine($"в поговорке {CountOfVowelLetters(phrase, alphabet)} гласных букв");
+}
 void FillArray2(int[,] numbers)
 {
     int rows = numbers.GetLength(0);
@@ -195,5 +218,6 @@ void PrintArray(int[,] numbers)
 //Zadacha051();
 //ZadachaDop();
 //ZadachaDop002();
+//ZadachaDop003();
 
 
