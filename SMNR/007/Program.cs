@@ -10,7 +10,7 @@
 }
 void Zadacha048()
 {   //Задайте двумерный массив размера m на n, каждый элемент в массиве находится по формуле: A = m+n.
-    //Выведите полученный массив на экран.Random random = new Random();
+    //Выведите полученный массив на экран.
     Console.WriteLine("Введите m:");
     int m = Convert.ToInt32(Console.ReadLine());
     Console.WriteLine("Введите n:");
